@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6,p,li{
 :root{
     --poppins: "Poppins", sans-serif;
     --frl: "Frank Ruhl Libre", serif;
+    --podkova: "Podkova", serif;
 }
 /* ===== Common CSS Part End ===== */
 
@@ -258,3 +259,204 @@ nav{
     background: #000;
 }
 /* ===== Collection Part End ===== */
+
+/* ===== Best Fashion Part Start ===== */
+#bestFashionMain{
+    margin-top: 93px;
+    position: relative;
+}
+.bestFashionImg{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.bestFashionImg img{
+    width: 749px;
+    height: 734px;
+}
+.bestFashionTxtArea h2{
+    width: 383px;
+    font-size: 64px;
+    font-family: var(--frl);
+    font-weight: 700;
+    color: #000;
+}
+.bestFashionTxtArea p{
+    width: 419px;
+    font-size: 24px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #000;
+    margin-top: 63px;
+}
+.bestFashionCounter{
+    width: 793px;
+    height: 280px;
+    background: #FEECC8;
+    position: absolute;
+    top: 662px;
+    left: 537px;
+    z-index: -1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    align-items: center;
+}
+.bestFashionLine{
+    width: 1px;
+    height: 143px;
+    background: #000;
+}
+.bestFashionTxt{
+    text-align: center;
+}
+.bestFashionTxt h1{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--podkova);
+    color: #000;
+}
+.bestFashionTxt p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #000;
+}
+/* ===== Best Fashion Part End ===== */
+
+/* ===== Footer Part Start ===== */
+footer{
+    width: 100%;
+    margin-top: 300px;
+    background: #CFA485;
+}
+.footerAllItems{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+}
+.footerTxtArea h2{
+    width: 315px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--frl);
+    color: #fff;
+}
+.footerTxtArea p{
+    width: 437px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--frl);
+    color: #fff;
+    margin: 43px 0 40px;
+}
+.footerTxtArea a{
+    font-size: 24px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #fff;
+    padding: 25px 100px;
+    background: #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all linear .1s;
+}
+.footerTxtArea a:hover{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+.footerAllImg{
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+.footerImg{
+    width: 366px;
+    height: 551px;
+    background: #fff;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    overflow: hidden;
+    transition: all linear .1s;
+}
+.footerImg:hover{
+    transform: scale(1.1);
+}
+.footerImg img{
+    width: 100%;
+}
+.footerStars{
+    display: flex;
+    gap: 7.75px;
+}
+.footerStars .starsngl{
+    width: 18.33px;
+    height: 20.18px;
+    color: #FFAF37;
+    margin: 14.24px 0 11.58px 22.21px;
+    transition: all linear .1s;
+}
+.footerStars .starsngl:hover{
+    transform: scale(1.5);
+}
+.footerImg h3{
+    font-size: 22px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 0.39px 22px;
+}
+.offerPrice{
+    display: flex;
+    gap: 31px;
+}
+.offerPrice p{
+    font-size: 24px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    margin-left: 22px;
+    color: #000;
+}
+.offDis{
+    color: #C4C4C4 !important;
+}
+.footerCredit{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #000;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.redHeart{
+    color: #ff0000;
+}
+.footerCredit a{
+    font-weight: 600;
+    color: #000;
+}
+.footerCredit a:hover{
+    text-decoration: underline !important;
+}
+/* ===== Footer Part End ===== */
+
+.errMsg{
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000;
+    color: #ff0000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: .9;
+    z-index: 1;
+}
