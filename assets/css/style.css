@@ -1,0 +1,462 @@
+/* ===== Common CSS Part Start ===== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,li{
+    margin: 0;
+    padding: 0;
+}
+.fuhadShiblu_container{
+    width: 1440px;
+    margin: 0 auto;
+}
+:root{
+    --poppins: "Poppins", sans-serif;
+    --frl: "Frank Ruhl Libre", serif;
+    --podkova: "Podkova", serif;
+}
+/* ===== Common CSS Part End ===== */
+
+/* ===== Navbar CSS Part Start ===== */
+nav{
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fuhadShiblu_navLogo img{
+    width: 133px;
+}
+.fuhadShiblu_navMenu ul{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+.fuhadShiblu_navMenu ul li a{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    font-family: var(--poppins);
+    transition: all linear .3s;
+}
+.fuhadShiblu_navMenu ul li a:hover{
+    color: #FDBB57;
+}
+.fuhadShiblu_navBtns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fuhadShiblu_navBtns a{
+    width: 121px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    font-family: var(--poppins);
+    line-height: 56px;
+    border: 1px solid #FFD687;
+    text-align: center;
+    background: #FDBB57;
+    border-radius: 10px;
+    transition: all linear .3s;
+}
+.fuhadShiblu_navBtns a:hover{
+    background: transparent;
+    box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
+}
+/* ===== Navbar CSS Part End ===== */
+
+/* ===== Fashion CSS Part Start ===== */
+#fuhadShiblu_fashionMain{
+    margin-top: 112px;
+    display: flex;
+    justify-content: space-between;
+}
+.fuhadShiblu_fashionTxtArea h1{
+    width: 449px;
+    font-weight: 600;
+    font-size: 64px;
+    color: #000;
+    font-family: var(--poppins);
+}
+.fuhadShiblu_fashionTxtArea p{
+    width: 514px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: var(--poppins);
+    margin: 38px 0 76px;
+}
+.fuhadShiblu_fashionTxtArea a{
+    width: 319px;
+    height: 86px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    background: #000;
+    font-family: var(--poppins);
+    line-height: 86px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all linear .3s;
+}
+.fuhadShiblu_fashionTxtArea a:hover{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+    transform: scale(1.1);
+}
+.fashionBannerArea{
+    width: 535px;
+    height: 643px;
+    overflow: hidden;
+    border-bottom-left-radius: 195px;
+}
+.fashionBannerArea img{
+    width: 100%;
+    height: 100%;
+    transition: all linear .3s;
+}
+.fashionBannerArea img:hover{
+    transform: scale(1.1);
+}
+/* ===== Fashion CSS Part End ===== */
+
+/* ===== Collection CSS Part Start ===== */
+#fuhadShiblu_collectionMain{
+    margin-top: 100px;
+}
+.fuhadShiblu_collectionTxtArea{
+    text-align: center;
+}
+.fuhadShiblu_collectionTxtArea h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--frl);
+    color: #000;
+}
+.fuhadShiblu_collectionTxtArea p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+    margin: 22px 0 40px;
+}
+.fuhadShiblu_collectionItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fuhadShiblu_collectionItemA{
+    width: 349px;
+    height: 402px;
+    background: url(/assets/img/Sweats.png);
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    transition: all linear .3s;
+}
+.fuhadShiblu_collectionItemA:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_collectionItemA a{
+    width: 315.45px;
+    height: 57.13px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 57.13px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+    position: absolute;
+    bottom: 44.43px;
+    left: -100%;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+}
+.fuhadShiblu_collectionItemA:hover a{
+    left: 50%;
+}
+.fuhadShiblu_collectionItemA a:hover{
+    box-shadow: 0px 15px 15px -10px #FDBB57;
+}
+.fuhadShiblu_collectionItemB{
+    width: 349px;
+    height: 402px;
+    background: url(/assets/img/Sweats2.png);
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    transition: all linear .3s;
+}
+.fuhadShiblu_collectionItemB:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_collectionItemB a{
+    width: 315.45px;
+    height: 57.13px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 57.13px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+}
+.fuhadShiblu_collectionItemB:hover a{
+    bottom: 44.43px;
+}
+.fuhadShiblu_collectionItemB a:hover{
+    box-shadow: 0px 15px 15px -10px #FDBB57;
+}
+.fuhadShiblu_collectionItemC{
+    width: 349px;
+    height: 402px;
+    background: url(/assets/img/Sweats3.png);
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    transition: all linear .3s;
+}
+.fuhadShiblu_collectionItemC:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_collectionItemC a{
+    width: 315.45px;
+    height: 57.13px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 57.13px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+    position: absolute;
+    bottom: 44.43px;
+    left: 150%;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+}
+.fuhadShiblu_collectionItemC:hover a{
+    left: 50%;
+}
+.fuhadShiblu_collectionItemC a:hover{
+    box-shadow: 0px 15px 15px -10px #FDBB57;
+}
+/* ===== Collection CSS Part End ===== */
+
+/* ===== Best Fashion CSS Part Start ===== */
+#fuhadShiblu_bestFashionMain{
+    margin-top: 93px;
+    width: 100%;
+    height: 942px;
+    position: relative;
+}
+.fuhadShiblu_bestFashionImgTxtArea{
+    display: flex;
+    gap: 35px;
+}
+.fuhadShiblu_bestFashionImg img{
+    width: 749px;
+    height: 734px;
+}
+.fuhadShiblu_bestFashionTxtArea h3{
+    width: 383px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--frl);
+    color: #000;
+    margin-top: 119px;
+}
+.fuhadShiblu_bestFashionTxtArea p{
+    width: 419px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #000;
+    margin-top: 63px;
+}
+.fuhadShiblu_counter{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+.fuhadShiblu_bestFashionCounter{
+    width: 793px;
+    height: 280px;
+    background: #FEECC8;
+    position: absolute;
+    top: 662px;
+    left: 537px;
+    z-index: -1;
+    border-radius: 20px;
+    padding: 72px 42px 73px 77px;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    justify-content: center;
+}
+.fuhadShiblu_counterTxtArea h4{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--podkova);
+    color: #000;
+    text-align: center;
+}
+.fuhadShiblu_counterTxtArea p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #000;
+    text-align: center;
+}
+.fuhadShiblu_line{
+    width: 1px;
+    height: 143px;
+    background: #000;
+}
+/* ===== Best Fashion CSS Part End ===== */
+
+/* ===== Footer CSS Part Start ===== */
+footer{
+    width: 100%;
+    height: 828px;
+    margin-top: 100px;
+    background: #CFA485;
+}
+.fuhadShiblu_footerMain{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.fuhadShiblu_footerTxtArea h5{
+    width: 315px;
+    font-size: 64px;
+    font-family: var(--frl);
+    color: #fff;
+    font-weight: 700;
+}
+.fuhadShiblu_footerTxtArea p{
+    width: 437px;
+    font-size: 24px;
+    font-family: var(--frl);
+    color: #fff;
+    font-weight: 700;
+    margin: 43px 0 40px;
+}
+.fuhadShiblu_footerTxtArea a{
+    width: 319px;
+    height: 86px;
+    font-size: 24px;
+    font-family: var(--poppins);
+    color: #fff;
+    font-weight: 600;
+    background: #000;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 86px;
+    transition: all linear .3s;
+}
+.fuhadShiblu_footerTxtArea a:hover{
+    border-top-left-radius: 90px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+    transform: scale(1.1);
+}
+.fuhadShiblu_footerImgMain{
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+.fuhadShiblu_footerImgArea{
+    width: 366px;
+    height: 551px;
+    background: #fff;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+.fuhadShiblu_footerImgArea:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_footerImgArea img{
+    width: 100%;
+}
+.fuhadShiblu_footerStars ul{
+    margin: 14.24px 0 11.58px 22.21px;
+    display: flex;
+    align-items: center;
+    gap: 7.75px;
+}
+.fuhadShiblu_footerStars ul li{
+    font-size: 18px;
+    color: #FFAF37;
+    transition: all linear .3s;
+}
+.fuhadShiblu_footerStars ul li:hover{
+    transform: scale(1.5);
+}
+.fuhadShiblu_footerTxt{
+    margin: 0 0 0.39px 22px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #000;
+}
+.fuhadShiblu_footerPrice{
+    margin: 0 0 9px 22px;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #C4C4C4;
+}
+.fuhadShiblu_footerOrgPrice{
+    color: #000;
+}
+.fuhadShiblu_footerCredit{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: var(--poppins);
+    font-weight: 300;
+    color: #000;
+}
+.fuhadShiblu_footerHeart{
+    color: #ff0000;
+}
+.fuhadShiblu_footerCredit a{
+    font-weight: 600;
+    color: #000;
+}
+.fuhadShiblu_footerCredit a:hover{
+    text-decoration: underline;
+}
+/* ===== Footer CSS Part End ===== */
