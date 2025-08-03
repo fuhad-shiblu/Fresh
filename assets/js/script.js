@@ -1,3 +1,8 @@
+document.addEventListener('contextmenu' , (e)=>{
+    e.preventDefault()
+    location.reload()
+})
+
 document.addEventListener('DOMContentLoaded', () => {
     const counters = document.querySelectorAll('.fuhadShiblu_count');
 
